@@ -42,7 +42,7 @@ Method 1:
 ```
 Method 2:
 ```html
- <div change-background colorcode="{{social.color}}" ng-repeat="social in socialArray">{{social.name}}</div>
+<div change-background colorcode="{{social.color}}" ng-repeat="social in socialArray">{{social.name}}</div>
 ```
 Here is a JSFIDDLE link for [Demo](http://jsfiddle.net/HB7LU/16148/)
 ## License
