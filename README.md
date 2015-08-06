@@ -1,6 +1,7 @@
 # ng-change-background
 AngularJS directive for change background color dynamically with hover effect.
 ## How to use it
+You need to inclue [AngularJS](https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js) and [Angular animate](https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-animate.min.js) to your file.
 You can simply copy and paste the directive code in your directive js file.
 ```javascript
 angular.module('myApp', [])
