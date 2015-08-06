@@ -1,0 +1,23 @@
+body, html, h2 {
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+.group-container {
+    margin-top: 50px;
+}
+.social-container {
+    border: 1px solid #e6e6e6;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px #C8CABC;
+    font-size: 24px;
+}
+.change-color {
+    transition: 0.4s all;
+}
+.change-color:hover, .change-color:focus, .change-color:active {
+    color: #fff;
+    background-color: #e38d13;
+    cursor: pointer;
+}

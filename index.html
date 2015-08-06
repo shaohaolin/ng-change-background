@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Ng-Change-Background</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-animate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div ng-controller="MyCtrl">
+	     <h2>Hover effect on changing background color with dynamically color code!</h2>
+	    <div class="group-container">
+	        <div class="social-container" change-background colorcode="{{social.color}}" ng-repeat="social in socialArray">{{social.name}}</div>
+	    </div>
+	</div>
+</body>
+</html>
