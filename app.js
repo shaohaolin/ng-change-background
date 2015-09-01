@@ -1,18 +1,19 @@
 angular.module('myApp', [])
     .directive('changeBackground', ['$animate', function ($animate) {
     return {
-        restrict: 'EA',
+        restrict: 'A',
         scope: {
             colorcode: '@?'
         },
         link: function ($scope, element, attr) {
+         var originalBG = element.css('background-color');
             element.on('mouseenter', function () {
                 element.addClass('change-color');
                 element.css('background-color', $scope.colorcode);
             });
             element.on('mouseleave', function () {
                 element.removeClass('change-color');
-                element.css('background-color', '#fff');
+                element.css('background-color', originalBG);
             });
         }
     };
